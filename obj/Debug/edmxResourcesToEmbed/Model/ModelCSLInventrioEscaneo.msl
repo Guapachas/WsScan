@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CSLInventarioEscaneoModelStoreContainer" CdmEntityContainer="CSLInventarioEscaneoEntities">
+    <EntitySetMapping Name="Inventario_Fisico">
+      <EntityTypeMapping TypeName="CSLInventarioEscaneoModel.Inventario_Fisico">
+        <MappingFragment StoreEntitySet="Inventario_Fisico">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fecha_escaneo" ColumnName="fecha_escaneo" />
+          <ScalarProperty Name="cadena_original" ColumnName="cadena_original" />
+          <ScalarProperty Name="lote" ColumnName="lote" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="dispositivo_id" ColumnName="dispositivo_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
